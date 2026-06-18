@@ -1,0 +1,902 @@
+[
+  {
+    "id_offre": "yzriga_1",
+    "titre": "Ingénieur Data & IA",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur statistiques, git, nlp, spark. Des notions en les expressions régulières sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Package : 49000 €/an"
+  },
+  {
+    "id_offre": "yzriga_2",
+    "titre": "Consultant BI",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Le poste requiert une maîtrise absolue de django, numpy, spacy afin de garantir la scalabilité de nos services. Des notions en le DevOps sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Package : 49100 €/an"
+  },
+  {
+    "id_offre": "yzriga_3",
+    "titre": "Développeur Python",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur fastapi, django, nlp, spacy, machine learning. Vous serez également amené à monter en compétence sur le scraping web.",
+    "salaire_brut": "Rémunération : Rémunération : 49700 EUR"
+  },
+  {
+    "id_offre": "yzriga_4",
+    "titre": "Ingénieur Data & IA",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Au quotidien, vous manipulerez scala, statistiques, pytorch pour extraire de la valeur de nos corpus textuels massifs. Des notions en les méthodologies agiles sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Rémunération : 56400 EUR"
+  },
+  {
+    "id_offre": "yzriga_5",
+    "titre": "Architecte Cloud",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Au quotidien, vous manipulerez bash, flask, spark pour extraire de la valeur de nos corpus textuels massifs. Une première expérience avec l'architecture microservices sera fortement valorisée.",
+    "salaire_brut": "Rémunération : Package : 47700 €/an"
+  },
+  {
+    "id_offre": "yzriga_6",
+    "titre": "Data Scientist",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous participerez à la refonte de notre système central. Stack technique exigée : django, aws, bash. Des notions en la sécurité informatique sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Rémunération : 46100 EUR"
+  },
+  {
+    "id_offre": "yzriga_7",
+    "titre": "Ingénieur Big Data",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous participerez à la refonte de notre système central. Stack technique exigée : fastapi, numpy, python, elasticsearch. La connaissance de la visualisation de données fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Rémunération : 54700 EUR"
+  },
+  {
+    "id_offre": "yzriga_8",
+    "titre": "Ingénieur Data & IA",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Vous participerez à la refonte de notre système central. Stack technique exigée : regex, java, django, mongodb. Vous serez également amené à monter en compétence sur les méthodologies agiles.",
+    "salaire_brut": "Rémunération : 63100 euros"
+  },
+  {
+    "id_offre": "yzriga_9",
+    "titre": "Développeur Python",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Le poste requiert une maîtrise absolue de pandas, nlp, kubernetes, mongodb, flask, java afin de garantir la scalabilité de nos services. La connaissance de le déploiement cloud fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 37400€"
+  },
+  {
+    "id_offre": "yzriga_10",
+    "titre": "Architecte Cloud",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Le poste requiert une maîtrise absolue de azure, bash, kubernetes, flask, pytorch afin de garantir la scalabilité de nos services. Vous serez également amené à monter en compétence sur le scraping web.",
+    "salaire_brut": "Rémunération : 48k€"
+  },
+  {
+    "id_offre": "yzriga_11",
+    "titre": "Spécialiste Traitement du Langage",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous participerez à la refonte de notre système central. Stack technique exigée : pandas, docker, bash, aws, machine learning. Vous serez également amené à monter en compétence sur les méthodologies agiles.",
+    "salaire_brut": "Rémunération : Rémunération : 75700 EUR"
+  },
+  {
+    "id_offre": "yzriga_12",
+    "titre": "Développeur Python",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur java, pandas, django. La connaissance de le DevOps fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Package : 57500 €/an"
+  },
+  {
+    "id_offre": "yzriga_13",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant scikit-learn, statistiques, scala, hadoop, spark, fastapi. Une première expérience avec le déploiement cloud sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 54800€"
+  },
+  {
+    "id_offre": "yzriga_14",
+    "titre": "Consultant BI",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Au quotidien, vous manipulerez hadoop, pandas, statistiques pour extraire de la valeur de nos corpus textuels massifs. Des notions en le DevOps sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 51300€"
+  },
+  {
+    "id_offre": "yzriga_15",
+    "titre": "Data Scientist",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant spacy, statistiques, bash, machine learning. Des notions en les expressions régulières sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 70k€"
+  },
+  {
+    "id_offre": "yzriga_16",
+    "titre": "Tech Lead Data",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant scala, nosql, aws, spacy. Vous serez également amené à monter en compétence sur les méthodologies agiles.",
+    "salaire_brut": "Rémunération : 54400 euros"
+  },
+  {
+    "id_offre": "yzriga_17",
+    "titre": "Ingénieur Big Data",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Au quotidien, vous manipulerez docker, flask, aws, pytorch, statistiques, nlp pour extraire de la valeur de nos corpus textuels massifs. Vous serez également amené à monter en compétence sur les méthodologies agiles.",
+    "salaire_brut": "Rémunération : 41 K euros"
+  },
+  {
+    "id_offre": "yzriga_18",
+    "titre": "Data Scientist",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant pandas, gcp, transformers, regex, statistiques. La connaissance de les expressions régulières fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Package : 61300 €/an"
+  },
+  {
+    "id_offre": "yzriga_19",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant spark, transformers, aws, nlp, sql. Une première expérience avec l'analyse de réseau sera fortement valorisée.",
+    "salaire_brut": "Rémunération : Package : 49700 €/an"
+  },
+  {
+    "id_offre": "yzriga_20",
+    "titre": "Développeur Python",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant python, api, regex. La connaissance de les expressions régulières fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 39700 euros"
+  },
+  {
+    "id_offre": "yzriga_21",
+    "titre": "Développeur Backend",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Au quotidien, vous manipulerez hadoop, gcp, api, nosql pour extraire de la valeur de nos corpus textuels massifs. La connaissance de le DevOps fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 49 K euros"
+  },
+  {
+    "id_offre": "yzriga_22",
+    "titre": "Ingénieur Big Data",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant nosql, docker, elasticsearch, statistiques, regex, git. La connaissance de le déploiement cloud fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Rémunération : 42600 EUR"
+  },
+  {
+    "id_offre": "yzriga_23",
+    "titre": "Ingénieur Data & IA",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Au quotidien, vous manipulerez pytorch, nlp, java, mongodb pour extraire de la valeur de nos corpus textuels massifs. Une première expérience avec le scraping web sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 72500 euros"
+  },
+  {
+    "id_offre": "yzriga_24",
+    "titre": "Tech Lead Data",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Le poste requiert une maîtrise absolue de spacy, machine learning, flask afin de garantir la scalabilité de nos services. Des notions en la sécurité informatique sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 44100 euros"
+  },
+  {
+    "id_offre": "yzriga_25",
+    "titre": "Data Analyst",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Le poste requiert une maîtrise absolue de git, statistiques, docker, spark, spacy afin de garantir la scalabilité de nos services. Des notions en l'analyse de réseau sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Package : 59400 €/an"
+  },
+  {
+    "id_offre": "yzriga_26",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Au quotidien, vous manipulerez nosql, transformers, spacy pour extraire de la valeur de nos corpus textuels massifs. La connaissance de l'analyse de réseau fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 55100€"
+  },
+  {
+    "id_offre": "yzriga_27",
+    "titre": "Consultant BI",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Le poste requiert une maîtrise absolue de sql, gcp, fastapi afin de garantir la scalabilité de nos services. La connaissance de la visualisation de données fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Rémunération : 63500 EUR"
+  },
+  {
+    "id_offre": "yzriga_28",
+    "titre": "Ingénieur Data & IA",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Le poste requiert une maîtrise absolue de flask, scala, kubernetes, fastapi, spacy, aws afin de garantir la scalabilité de nos services. Des notions en les méthodologies agiles sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 50400€"
+  },
+  {
+    "id_offre": "yzriga_29",
+    "titre": "Développeur Python",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur sql, kubernetes, pytorch, aws, gcp. Une première expérience avec le scraping web sera fortement valorisée.",
+    "salaire_brut": "Rémunération : Rémunération : 37900 EUR"
+  },
+  {
+    "id_offre": "yzriga_30",
+    "titre": "Data Analyst",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant spacy, java, pytorch, hadoop. Vous serez également amené à monter en compétence sur le scraping web.",
+    "salaire_brut": "Rémunération : 43 K euros"
+  },
+  {
+    "id_offre": "yzriga_31",
+    "titre": "Architecte Cloud",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Au quotidien, vous manipulerez pandas, spark, elasticsearch pour extraire de la valeur de nos corpus textuels massifs. Vous serez également amené à monter en compétence sur le scraping web.",
+    "salaire_brut": "Rémunération : 67k€"
+  },
+  {
+    "id_offre": "yzriga_32",
+    "titre": "Spécialiste Traitement du Langage",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Au quotidien, vous manipulerez nlp, machine learning, scikit-learn, nosql pour extraire de la valeur de nos corpus textuels massifs. La connaissance de les expressions régulières fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 42300€"
+  },
+  {
+    "id_offre": "yzriga_33",
+    "titre": "Ingénieur Data & IA",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur pandas, sql, api. Une première expérience avec le déploiement cloud sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 81 K euros"
+  },
+  {
+    "id_offre": "yzriga_34",
+    "titre": "Spécialiste Traitement du Langage",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur nosql, hadoop, java, django. Vous serez également amené à monter en compétence sur le DevOps.",
+    "salaire_brut": "Rémunération : Package : 59500 €/an"
+  },
+  {
+    "id_offre": "yzriga_35",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous participerez à la refonte de notre système central. Stack technique exigée : elasticsearch, fastapi, nlp, git. Des notions en le déploiement cloud sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 38100 euros"
+  },
+  {
+    "id_offre": "yzriga_36",
+    "titre": "Data Analyst",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur azure, git, fastapi. Des notions en l'analyse de réseau sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Package : 61300 €/an"
+  },
+  {
+    "id_offre": "yzriga_37",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur bash, spark, kubernetes, scala. Une première expérience avec la visualisation de données sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 37900€"
+  },
+  {
+    "id_offre": "yzriga_38",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant mongodb, bash, scikit-learn, transformers, elasticsearch, regex. La connaissance de la visualisation de données fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 52k€"
+  },
+  {
+    "id_offre": "yzriga_39",
+    "titre": "Spécialiste Traitement du Langage",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Au quotidien, vous manipulerez transformers, gcp, scikit-learn, spacy pour extraire de la valeur de nos corpus textuels massifs. Une première expérience avec le déploiement cloud sera fortement valorisée.",
+    "salaire_brut": "Rémunération : Package : 46500 €/an"
+  },
+  {
+    "id_offre": "yzriga_40",
+    "titre": "Ingénieur Data & IA",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur transformers, aws, statistiques, nlp, pytorch. Vous serez également amené à monter en compétence sur la visualisation de données.",
+    "salaire_brut": "Rémunération : Package : 45300 €/an"
+  },
+  {
+    "id_offre": "yzriga_41",
+    "titre": "Consultant BI",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Le poste requiert une maîtrise absolue de statistiques, elasticsearch, fastapi, machine learning, nlp afin de garantir la scalabilité de nos services. Des notions en la visualisation de données sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 66800 euros"
+  },
+  {
+    "id_offre": "yzriga_42",
+    "titre": "Architecte Cloud",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur azure, nlp, api. Des notions en le déploiement cloud sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 40k€"
+  },
+  {
+    "id_offre": "yzriga_43",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant mongodb, docker, python, scala, scikit-learn, git. Des notions en l'analyse de réseau sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 77500 euros"
+  },
+  {
+    "id_offre": "yzriga_44",
+    "titre": "Data Scientist",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Le poste requiert une maîtrise absolue de hadoop, statistiques, elasticsearch, pandas, python, mongodb afin de garantir la scalabilité de nos services. Des notions en le DevOps sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 41400 euros"
+  },
+  {
+    "id_offre": "yzriga_45",
+    "titre": "Data Analyst",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous participerez à la refonte de notre système central. Stack technique exigée : api, django, fastapi, hadoop, kubernetes. Une première expérience avec le DevOps sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 38k€"
+  },
+  {
+    "id_offre": "yzriga_46",
+    "titre": "Ingénieur Data & IA",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous participerez à la refonte de notre système central. Stack technique exigée : django, mongodb, pandas, statistiques, sql, scikit-learn. La connaissance de les expressions régulières fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Package : 67900 €/an"
+  },
+  {
+    "id_offre": "yzriga_47",
+    "titre": "Ingénieur Data & IA",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous participerez à la refonte de notre système central. Stack technique exigée : nosql, gcp, transformers, regex, azure, scala. Vous serez également amené à monter en compétence sur le DevOps.",
+    "salaire_brut": "Rémunération : 73500 euros"
+  },
+  {
+    "id_offre": "yzriga_48",
+    "titre": "Développeur Backend",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur python, machine learning, transformers, elasticsearch, gcp, kubernetes. La connaissance de le scraping web fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 37k€"
+  },
+  {
+    "id_offre": "yzriga_49",
+    "titre": "Ingénieur Data & IA",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Vous participerez à la refonte de notre système central. Stack technique exigée : fastapi, java, django. Vous serez également amené à monter en compétence sur le scraping web.",
+    "salaire_brut": "Rémunération : 74500 euros"
+  },
+  {
+    "id_offre": "yzriga_50",
+    "titre": "Consultant BI",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Au quotidien, vous manipulerez transformers, scala, scikit-learn, aws, docker pour extraire de la valeur de nos corpus textuels massifs. Des notions en le DevOps sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Package : 66600 €/an"
+  },
+  {
+    "id_offre": "yzriga_51",
+    "titre": "Développeur Python",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous participerez à la refonte de notre système central. Stack technique exigée : java, spacy, django, nlp, numpy. Vous serez également amené à monter en compétence sur le DevOps.",
+    "salaire_brut": "Rémunération : Package : 33500 €/an"
+  },
+  {
+    "id_offre": "yzriga_52",
+    "titre": "Data Analyst",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant flask, transformers, regex, spark, scala. Vous serez également amené à monter en compétence sur les méthodologies agiles.",
+    "salaire_brut": "Rémunération : 70 K euros"
+  },
+  {
+    "id_offre": "yzriga_53",
+    "titre": "Tech Lead Data",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous participerez à la refonte de notre système central. Stack technique exigée : docker, aws, sql, django, nosql, api. Une première expérience avec la sécurité informatique sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 43300 euros"
+  },
+  {
+    "id_offre": "yzriga_54",
+    "titre": "Tech Lead Data",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Le poste requiert une maîtrise absolue de nosql, api, django afin de garantir la scalabilité de nos services. Une première expérience avec les méthodologies agiles sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 40700 euros"
+  },
+  {
+    "id_offre": "yzriga_55",
+    "titre": "Consultant BI",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Vous participerez à la refonte de notre système central. Stack technique exigée : nosql, hadoop, java, statistiques. Vous serez également amené à monter en compétence sur le scraping web.",
+    "salaire_brut": "Rémunération : 40300 euros"
+  },
+  {
+    "id_offre": "yzriga_56",
+    "titre": "Développeur Backend",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Le poste requiert une maîtrise absolue de azure, statistiques, django, sql afin de garantir la scalabilité de nos services. Une première expérience avec le déploiement cloud sera fortement valorisée.",
+    "salaire_brut": "Rémunération : Package : 60100 €/an"
+  },
+  {
+    "id_offre": "yzriga_57",
+    "titre": "Tech Lead Data",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Le poste requiert une maîtrise absolue de bash, elasticsearch, aws afin de garantir la scalabilité de nos services. Des notions en la sécurité informatique sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 58k€"
+  },
+  {
+    "id_offre": "yzriga_58",
+    "titre": "Développeur Python",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Vous participerez à la refonte de notre système central. Stack technique exigée : pytorch, scala, flask, sql. La connaissance de la sécurité informatique fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 59900€"
+  },
+  {
+    "id_offre": "yzriga_59",
+    "titre": "Architecte Cloud",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant django, fastapi, machine learning, aws, nlp, azure. La connaissance de la visualisation de données fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Rémunération : 44600 EUR"
+  },
+  {
+    "id_offre": "yzriga_60",
+    "titre": "Tech Lead Data",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant docker, python, pandas, statistiques. La connaissance de l'analyse de réseau fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 35 K euros"
+  },
+  {
+    "id_offre": "yzriga_61",
+    "titre": "Data Scientist",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous participerez à la refonte de notre système central. Stack technique exigée : machine learning, fastapi, git, scikit-learn, hadoop, sql. Des notions en l'architecture microservices sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Package : 42200 €/an"
+  },
+  {
+    "id_offre": "yzriga_62",
+    "titre": "Data Analyst",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous participerez à la refonte de notre système central. Stack technique exigée : regex, transformers, kubernetes, azure, aws, django. Une première expérience avec le DevOps sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 53800 euros"
+  },
+  {
+    "id_offre": "yzriga_63",
+    "titre": "Tech Lead Data",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant hadoop, spacy, java. Des notions en l'analyse de réseau sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 61600€"
+  },
+  {
+    "id_offre": "yzriga_64",
+    "titre": "Data Analyst",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Le poste requiert une maîtrise absolue de azure, regex, nosql, django, api afin de garantir la scalabilité de nos services. Vous serez également amené à monter en compétence sur le scraping web.",
+    "salaire_brut": "Rémunération : 65400 euros"
+  },
+  {
+    "id_offre": "yzriga_65",
+    "titre": "Ingénieur Data & IA",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Vous participerez à la refonte de notre système central. Stack technique exigée : django, fastapi, sql. Une première expérience avec la visualisation de données sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 64 K euros"
+  },
+  {
+    "id_offre": "yzriga_66",
+    "titre": "Data Analyst",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur gcp, java, elasticsearch, bash, api. Une première expérience avec les méthodologies agiles sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 38400 euros"
+  },
+  {
+    "id_offre": "yzriga_67",
+    "titre": "Consultant BI",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur mongodb, sql, flask, nlp, elasticsearch, scikit-learn. Une première expérience avec les méthodologies agiles sera fortement valorisée.",
+    "salaire_brut": "Rémunération : Package : 73300 €/an"
+  },
+  {
+    "id_offre": "yzriga_68",
+    "titre": "Data Analyst",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Au quotidien, vous manipulerez statistiques, elasticsearch, nlp, git, java pour extraire de la valeur de nos corpus textuels massifs. La connaissance de l'analyse de réseau fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 71900€"
+  },
+  {
+    "id_offre": "yzriga_69",
+    "titre": "Data Scientist",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur transformers, nosql, flask, bash. Une première expérience avec le DevOps sera fortement valorisée.",
+    "salaire_brut": "Rémunération : Rémunération : 62900 EUR"
+  },
+  {
+    "id_offre": "yzriga_70",
+    "titre": "Architecte Cloud",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous participerez à la refonte de notre système central. Stack technique exigée : regex, git, aws. La connaissance de la visualisation de données fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 73800€"
+  },
+  {
+    "id_offre": "yzriga_71",
+    "titre": "Développeur Backend",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant scikit-learn, statistiques, kubernetes, spark, java, nosql. Des notions en le déploiement cloud sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 63700 euros"
+  },
+  {
+    "id_offre": "yzriga_72",
+    "titre": "Développeur Backend",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Au quotidien, vous manipulerez gcp, docker, flask pour extraire de la valeur de nos corpus textuels massifs. Vous serez également amené à monter en compétence sur le scraping web.",
+    "salaire_brut": "Rémunération : Package : 62600 €/an"
+  },
+  {
+    "id_offre": "yzriga_73",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Au quotidien, vous manipulerez sql, api, nosql pour extraire de la valeur de nos corpus textuels massifs. Vous serez également amené à monter en compétence sur le déploiement cloud.",
+    "salaire_brut": "Rémunération : 37700€"
+  },
+  {
+    "id_offre": "yzriga_74",
+    "titre": "Ingénieur Big Data",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur flask, scala, transformers, azure, django. La connaissance de la sécurité informatique fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Rémunération : 71700 EUR"
+  },
+  {
+    "id_offre": "yzriga_75",
+    "titre": "Ingénieur Big Data",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Au quotidien, vous manipulerez numpy, transformers, flask, scala pour extraire de la valeur de nos corpus textuels massifs. Vous serez également amené à monter en compétence sur le déploiement cloud.",
+    "salaire_brut": "Rémunération : 57300€"
+  },
+  {
+    "id_offre": "yzriga_76",
+    "titre": "Développeur Backend",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur aws, kubernetes, scala, python. Des notions en l'analyse de réseau sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 39 K euros"
+  },
+  {
+    "id_offre": "yzriga_77",
+    "titre": "Ingénieur Big Data",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Au quotidien, vous manipulerez docker, pytorch, api, statistiques, sql, aws pour extraire de la valeur de nos corpus textuels massifs. La connaissance de l'architecture microservices fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Package : 73000 €/an"
+  },
+  {
+    "id_offre": "yzriga_78",
+    "titre": "Architecte Cloud",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant pandas, aws, nlp. Vous serez également amené à monter en compétence sur l'analyse de réseau.",
+    "salaire_brut": "Rémunération : 41 K euros"
+  },
+  {
+    "id_offre": "yzriga_79",
+    "titre": "Consultant BI",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Vous participerez à la refonte de notre système central. Stack technique exigée : flask, nlp, sql, spark, scikit-learn. Une première expérience avec la sécurité informatique sera fortement valorisée.",
+    "salaire_brut": "Rémunération : Package : 79200 €/an"
+  },
+  {
+    "id_offre": "yzriga_80",
+    "titre": "Data Analyst",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant bash, pytorch, gcp. Une première expérience avec la sécurité informatique sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 42 K euros"
+  },
+  {
+    "id_offre": "yzriga_81",
+    "titre": "Data Scientist",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Le poste requiert une maîtrise absolue de git, python, spacy, nlp, hadoop, statistiques afin de garantir la scalabilité de nos services. Des notions en la sécurité informatique sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 64800 euros"
+  },
+  {
+    "id_offre": "yzriga_82",
+    "titre": "Développeur Backend",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Vous participerez à la refonte de notre système central. Stack technique exigée : pytorch, docker, mongodb, spark, nosql. Des notions en le scraping web sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 50900 euros"
+  },
+  {
+    "id_offre": "yzriga_83",
+    "titre": "Développeur Backend",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Au quotidien, vous manipulerez spacy, bash, pytorch pour extraire de la valeur de nos corpus textuels massifs. Des notions en l'analyse de réseau sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 60 K euros"
+  },
+  {
+    "id_offre": "yzriga_84",
+    "titre": "Architecte Cloud",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Au quotidien, vous manipulerez pytorch, sql, nosql pour extraire de la valeur de nos corpus textuels massifs. La connaissance de l'architecture microservices fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Rémunération : 37300 EUR"
+  },
+  {
+    "id_offre": "yzriga_85",
+    "titre": "Développeur Python",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant numpy, elasticsearch, docker, fastapi, api, scala. Des notions en les expressions régulières sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Rémunération : 42900 EUR"
+  },
+  {
+    "id_offre": "yzriga_86",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous participerez à la refonte de notre système central. Stack technique exigée : spacy, nosql, hadoop, fastapi. Des notions en l'architecture microservices sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Package : 59000 €/an"
+  },
+  {
+    "id_offre": "yzriga_87",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Le poste requiert une maîtrise absolue de regex, docker, spacy afin de garantir la scalabilité de nos services. Une première expérience avec le scraping web sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 51200 euros"
+  },
+  {
+    "id_offre": "yzriga_88",
+    "titre": "Consultant BI",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous participerez à la refonte de notre système central. Stack technique exigée : spacy, flask, spark, scala. La connaissance de le déploiement cloud fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Package : 33500 €/an"
+  },
+  {
+    "id_offre": "yzriga_89",
+    "titre": "Développeur Backend",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant azure, aws, docker, django, java, regex. Une première expérience avec le scraping web sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 43100€"
+  },
+  {
+    "id_offre": "yzriga_90",
+    "titre": "Spécialiste Traitement du Langage",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Au quotidien, vous manipulerez spacy, machine learning, bash pour extraire de la valeur de nos corpus textuels massifs. Vous serez également amené à monter en compétence sur le scraping web.",
+    "salaire_brut": "Rémunération : Rémunération : 37400 EUR"
+  },
+  {
+    "id_offre": "yzriga_91",
+    "titre": "Data Analyst",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous participerez à la refonte de notre système central. Stack technique exigée : regex, flask, machine learning. Des notions en les méthodologies agiles sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 69k€"
+  },
+  {
+    "id_offre": "yzriga_92",
+    "titre": "Architecte Cloud",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Le poste requiert une maîtrise absolue de flask, scala, pandas, sql, aws afin de garantir la scalabilité de nos services. Une première expérience avec le DevOps sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 64300 euros"
+  },
+  {
+    "id_offre": "yzriga_93",
+    "titre": "Ingénieur Big Data",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Au quotidien, vous manipulerez scikit-learn, numpy, python pour extraire de la valeur de nos corpus textuels massifs. Des notions en les expressions régulières sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 72600 euros"
+  },
+  {
+    "id_offre": "yzriga_94",
+    "titre": "Data Scientist",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous participerez à la refonte de notre système central. Stack technique exigée : nlp, aws, fastapi, elasticsearch, machine learning, bash. La connaissance de les expressions régulières fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Package : 74000 €/an"
+  },
+  {
+    "id_offre": "yzriga_95",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Au quotidien, vous manipulerez elasticsearch, mongodb, scikit-learn, nosql pour extraire de la valeur de nos corpus textuels massifs. La connaissance de le DevOps fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 33600 euros"
+  },
+  {
+    "id_offre": "yzriga_96",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur bash, java, docker. Vous serez également amené à monter en compétence sur le scraping web.",
+    "salaire_brut": "Rémunération : 58900€"
+  },
+  {
+    "id_offre": "yzriga_97",
+    "titre": "Architecte Cloud",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Le poste requiert une maîtrise absolue de flask, elasticsearch, fastapi, mongodb, numpy afin de garantir la scalabilité de nos services. La connaissance de l'analyse de réseau fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 47200 euros"
+  },
+  {
+    "id_offre": "yzriga_98",
+    "titre": "Spécialiste Traitement du Langage",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Au quotidien, vous manipulerez azure, nlp, pandas, fastapi pour extraire de la valeur de nos corpus textuels massifs. Une première expérience avec le scraping web sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 40600 euros"
+  },
+  {
+    "id_offre": "yzriga_99",
+    "titre": "Consultant BI",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Le poste requiert une maîtrise absolue de java, api, sql, scala, azure, gcp afin de garantir la scalabilité de nos services. Vous serez également amené à monter en compétence sur le déploiement cloud.",
+    "salaire_brut": "Rémunération : 68k€"
+  },
+  {
+    "id_offre": "yzriga_100",
+    "titre": "Data Scientist",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Le poste requiert une maîtrise absolue de fastapi, nosql, kubernetes, hadoop afin de garantir la scalabilité de nos services. Une première expérience avec les méthodologies agiles sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 66 K euros"
+  },
+  {
+    "id_offre": "yzriga_101",
+    "titre": "Développeur Backend",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant java, scikit-learn, spacy, sql, transformers, django. La connaissance de l'analyse de réseau fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 35900 euros"
+  },
+  {
+    "id_offre": "yzriga_102",
+    "titre": "Développeur Backend",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Au quotidien, vous manipulerez python, kubernetes, nlp, spacy, regex, fastapi pour extraire de la valeur de nos corpus textuels massifs. Des notions en le scraping web sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 41k€"
+  },
+  {
+    "id_offre": "yzriga_103",
+    "titre": "Ingénieur Big Data",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Au quotidien, vous manipulerez spacy, scala, docker, python, spark pour extraire de la valeur de nos corpus textuels massifs. Une première expérience avec l'analyse de réseau sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 45800€"
+  },
+  {
+    "id_offre": "yzriga_104",
+    "titre": "Data Analyst",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant machine learning, java, python, gcp. Une première expérience avec la sécurité informatique sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 69100 euros"
+  },
+  {
+    "id_offre": "yzriga_105",
+    "titre": "Ingénieur Machine Learning",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Le poste requiert une maîtrise absolue de nlp, pandas, machine learning, statistiques, git, transformers afin de garantir la scalabilité de nos services. Vous serez également amené à monter en compétence sur l'architecture microservices.",
+    "salaire_brut": "Rémunération : 66600 euros"
+  },
+  {
+    "id_offre": "yzriga_106",
+    "titre": "Développeur Backend",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous participerez à la refonte de notre système central. Stack technique exigée : python, fastapi, docker, elasticsearch, spark, statistiques. La connaissance de les méthodologies agiles fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Package : 46400 €/an"
+  },
+  {
+    "id_offre": "yzriga_107",
+    "titre": "Data Analyst",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur flask, statistiques, scikit-learn, pytorch, azure. Vous serez également amené à monter en compétence sur la visualisation de données.",
+    "salaire_brut": "Rémunération : 69 K euros"
+  },
+  {
+    "id_offre": "yzriga_108",
+    "titre": "Data Scientist",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Vous participerez à la refonte de notre système central. Stack technique exigée : elasticsearch, sql, nosql, statistiques. Vous serez également amené à monter en compétence sur l'architecture microservices.",
+    "salaire_brut": "Rémunération : Rémunération : 71200 EUR"
+  },
+  {
+    "id_offre": "yzriga_109",
+    "titre": "Développeur Python",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur bash, spark, python, git, sql. Des notions en le déploiement cloud sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 57 K euros"
+  },
+  {
+    "id_offre": "yzriga_110",
+    "titre": "Data Scientist",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Vous participerez à la refonte de notre système central. Stack technique exigée : scikit-learn, numpy, elasticsearch, bash, pandas, machine learning. Des notions en la visualisation de données sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 63300€"
+  },
+  {
+    "id_offre": "yzriga_111",
+    "titre": "Développeur Backend",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur fastapi, kubernetes, scikit-learn, numpy, sql, django. Des notions en la visualisation de données sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 54000 euros"
+  },
+  {
+    "id_offre": "yzriga_112",
+    "titre": "Ingénieur Data & IA",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Au quotidien, vous manipulerez transformers, java, machine learning, sql pour extraire de la valeur de nos corpus textuels massifs. Vous serez également amené à monter en compétence sur l'analyse de réseau.",
+    "salaire_brut": "Rémunération : 56k€"
+  },
+  {
+    "id_offre": "yzriga_113",
+    "titre": "Ingénieur Data & IA",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant statistiques, hadoop, machine learning, spark, elasticsearch. Vous serez également amené à monter en compétence sur la visualisation de données.",
+    "salaire_brut": "Rémunération : 59k€"
+  },
+  {
+    "id_offre": "yzriga_114",
+    "titre": "Développeur Backend",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant numpy, transformers, docker, aws. Une première expérience avec les méthodologies agiles sera fortement valorisée.",
+    "salaire_brut": "Rémunération : Rémunération : 48700 EUR"
+  },
+  {
+    "id_offre": "yzriga_115",
+    "titre": "Spécialiste Traitement du Langage",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Le poste requiert une maîtrise absolue de statistiques, azure, git, bash, aws afin de garantir la scalabilité de nos services. Une première expérience avec le déploiement cloud sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 59 K euros"
+  },
+  {
+    "id_offre": "yzriga_116",
+    "titre": "Spécialiste Traitement du Langage",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Le poste requiert une maîtrise absolue de django, mongodb, gcp, spacy, statistiques afin de garantir la scalabilité de nos services. La connaissance de le DevOps fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 55400€"
+  },
+  {
+    "id_offre": "yzriga_117",
+    "titre": "Développeur Backend",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur api, spark, fastapi, bash. La connaissance de la visualisation de données fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : Rémunération : 50400 EUR"
+  },
+  {
+    "id_offre": "yzriga_118",
+    "titre": "Développeur Backend",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Le poste requiert une maîtrise absolue de pytorch, pandas, numpy, git afin de garantir la scalabilité de nos services. Une première expérience avec l'analyse de réseau sera fortement valorisée.",
+    "salaire_brut": "Rémunération : Rémunération : 36800 EUR"
+  },
+  {
+    "id_offre": "yzriga_119",
+    "titre": "Ingénieur Data & IA",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Au quotidien, vous manipulerez regex, aws, numpy, kubernetes pour extraire de la valeur de nos corpus textuels massifs. Vous serez également amené à monter en compétence sur l'analyse de réseau.",
+    "salaire_brut": "Rémunération : Package : 50100 €/an"
+  },
+  {
+    "id_offre": "yzriga_120",
+    "titre": "Data Analyst",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant machine learning, spark, elasticsearch, api, scala, spacy. La connaissance de l'analyse de réseau fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 67k€"
+  },
+  {
+    "id_offre": "yzriga_121",
+    "titre": "Consultant BI",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Au quotidien, vous manipulerez python, pandas, gcp, sql, transformers, git pour extraire de la valeur de nos corpus textuels massifs. Des notions en les expressions régulières sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 60k€"
+  },
+  {
+    "id_offre": "yzriga_122",
+    "titre": "Ingénieur Big Data",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant docker, kubernetes, gcp, python, machine learning. Vous serez également amené à monter en compétence sur l'analyse de réseau.",
+    "salaire_brut": "Rémunération : 72500 euros"
+  },
+  {
+    "id_offre": "yzriga_123",
+    "titre": "Ingénieur Data & IA",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Vous participerez à la refonte de notre système central. Stack technique exigée : fastapi, mongodb, nlp, bash, elasticsearch, java. La connaissance de la sécurité informatique fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 48 K euros"
+  },
+  {
+    "id_offre": "yzriga_124",
+    "titre": "Tech Lead Data",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur pytorch, spacy, gcp, elasticsearch, nosql, hadoop. Vous serez également amené à monter en compétence sur la visualisation de données.",
+    "salaire_brut": "Rémunération : Package : 67200 €/an"
+  },
+  {
+    "id_offre": "yzriga_125",
+    "titre": "Architecte Cloud",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur bash, regex, numpy, django. Des notions en le déploiement cloud sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Package : 69000 €/an"
+  },
+  {
+    "id_offre": "yzriga_126",
+    "titre": "Tech Lead Data",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant flask, elasticsearch, pandas, azure, aws. Une première expérience avec la visualisation de données sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 71800 euros"
+  },
+  {
+    "id_offre": "yzriga_127",
+    "titre": "Architecte Cloud",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Au quotidien, vous manipulerez elasticsearch, machine learning, python, numpy pour extraire de la valeur de nos corpus textuels massifs. Vous serez également amené à monter en compétence sur les expressions régulières.",
+    "salaire_brut": "Rémunération : Package : 59400 €/an"
+  },
+  {
+    "id_offre": "yzriga_128",
+    "titre": "Spécialiste Traitement du Langage",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous participerez à la refonte de notre système central. Stack technique exigée : azure, pytorch, sql, fastapi, python. Une première expérience avec les expressions régulières sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 48 K euros"
+  },
+  {
+    "id_offre": "yzriga_129",
+    "titre": "Ingénieur Data & IA",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Le poste requiert une maîtrise absolue de python, spacy, azure, fastapi, sql afin de garantir la scalabilité de nos services. La connaissance de l'architecture microservices fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 52000 euros"
+  },
+  {
+    "id_offre": "yzriga_130",
+    "titre": "Spécialiste Traitement du Langage",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Au quotidien, vous manipulerez spark, docker, git pour extraire de la valeur de nos corpus textuels massifs. Des notions en les expressions régulières sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Rémunération : 61100 EUR"
+  },
+  {
+    "id_offre": "yzriga_131",
+    "titre": "Développeur Python",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Au quotidien, vous manipulerez git, api, bash, pandas pour extraire de la valeur de nos corpus textuels massifs. La connaissance de la sécurité informatique fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 71k€"
+  },
+  {
+    "id_offre": "yzriga_132",
+    "titre": "Architecte Cloud",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Vous participerez à la refonte de notre système central. Stack technique exigée : machine learning, flask, java, numpy, hadoop. Vous serez également amené à monter en compétence sur la visualisation de données.",
+    "salaire_brut": "Rémunération : Package : 58300 €/an"
+  },
+  {
+    "id_offre": "yzriga_133",
+    "titre": "Data Analyst",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Au quotidien, vous manipulerez kubernetes, pandas, hadoop, aws, gcp pour extraire de la valeur de nos corpus textuels massifs. Une première expérience avec l'architecture microservices sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 65k€"
+  },
+  {
+    "id_offre": "yzriga_134",
+    "titre": "Développeur Python",
+    "description": "Nous recherchons un profil talentueux pour rejoindre notre équipe en pleine croissance. Au quotidien, vous manipulerez nlp, bash, azure pour extraire de la valeur de nos corpus textuels massifs. Vous serez également amené à monter en compétence sur la visualisation de données.",
+    "salaire_brut": "Rémunération : 69 K euros"
+  },
+  {
+    "id_offre": "yzriga_135",
+    "titre": "Développeur Backend",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur transformers, mongodb, nlp. Une première expérience avec la visualisation de données sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 37700€"
+  },
+  {
+    "id_offre": "yzriga_136",
+    "titre": "Data Analyst",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Le poste requiert une maîtrise absolue de api, scala, pytorch afin de garantir la scalabilité de nos services. Une première expérience avec la sécurité informatique sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 58300 euros"
+  },
+  {
+    "id_offre": "yzriga_137",
+    "titre": "Spécialiste Traitement du Langage",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Le poste requiert une maîtrise absolue de kubernetes, hadoop, git, regex, mongodb afin de garantir la scalabilité de nos services. Vous serez également amené à monter en compétence sur les méthodologies agiles.",
+    "salaire_brut": "Rémunération : 73500€"
+  },
+  {
+    "id_offre": "yzriga_138",
+    "titre": "Data Scientist",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Le poste requiert une maîtrise absolue de statistiques, sql, fastapi, mongodb afin de garantir la scalabilité de nos services. Vous serez également amené à monter en compétence sur le scraping web.",
+    "salaire_brut": "Rémunération : 35500€"
+  },
+  {
+    "id_offre": "yzriga_139",
+    "titre": "Architecte Cloud",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Vous participerez à la refonte de notre système central. Stack technique exigée : java, python, aws, bash, nosql. Des notions en l'analyse de réseau sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 50700€"
+  },
+  {
+    "id_offre": "yzriga_140",
+    "titre": "Data Analyst",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Au quotidien, vous manipulerez machine learning, kubernetes, docker, elasticsearch pour extraire de la valeur de nos corpus textuels massifs. Une première expérience avec la visualisation de données sera fortement valorisée.",
+    "salaire_brut": "Rémunération : 33500€"
+  },
+  {
+    "id_offre": "yzriga_141",
+    "titre": "Tech Lead Data",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Au quotidien, vous manipulerez elasticsearch, aws, bash, nosql pour extraire de la valeur de nos corpus textuels massifs. Des notions en le DevOps sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Rémunération : 66500 EUR"
+  },
+  {
+    "id_offre": "yzriga_142",
+    "titre": "Architecte Cloud",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous participerez à la refonte de notre système central. Stack technique exigée : docker, spacy, bash, statistiques. Des notions en la visualisation de données sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 44800€"
+  },
+  {
+    "id_offre": "yzriga_143",
+    "titre": "Ingénieur Big Data",
+    "description": "Rejoignez notre pôle R&D pour concevoir les architectures logicielles de demain. Au quotidien, vous manipulerez statistiques, regex, transformers, docker pour extraire de la valeur de nos corpus textuels massifs. Des notions en les expressions régulières sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 53 K euros"
+  },
+  {
+    "id_offre": "yzriga_144",
+    "titre": "Tech Lead Data",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Vous serez en charge de l'intégration continue et de la conception des pipelines impliquant flask, elasticsearch, scala, machine learning. Vous serez également amené à monter en compétence sur la sécurité informatique.",
+    "salaire_brut": "Rémunération : 62300€"
+  },
+  {
+    "id_offre": "yzriga_145",
+    "titre": "Data Scientist",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Le poste requiert une maîtrise absolue de bash, java, aws, pandas, regex, nlp afin de garantir la scalabilité de nos services. La connaissance de le déploiement cloud fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 66k€"
+  },
+  {
+    "id_offre": "yzriga_146",
+    "titre": "Ingénieur Data & IA",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Vous participerez à la refonte de notre système central. Stack technique exigée : docker, gcp, git, sql, api, spacy. Vous serez également amené à monter en compétence sur l'architecture microservices.",
+    "salaire_brut": "Rémunération : 46 K euros"
+  },
+  {
+    "id_offre": "yzriga_147",
+    "titre": "Ingénieur Big Data",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Le poste requiert une maîtrise absolue de sql, elasticsearch, api, nlp, scikit-learn, pytorch afin de garantir la scalabilité de nos services. Des notions en le DevOps sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : Rémunération : 52500 EUR"
+  },
+  {
+    "id_offre": "yzriga_148",
+    "titre": "Développeur Python",
+    "description": "Startup innovante, nous avons besoin de vos compétences pour disrupter notre secteur. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur scikit-learn, docker, django, nosql, flask, aws. Des notions en la visualisation de données sont un plus indéniable pour ce poste.",
+    "salaire_brut": "Rémunération : 67k€"
+  },
+  {
+    "id_offre": "yzriga_149",
+    "titre": "Développeur Backend",
+    "description": "Envie d'un nouveau défi ? Venez apporter votre expertise technique au sein de notre DSI. Le poste requiert une maîtrise absolue de git, pytorch, bash afin de garantir la scalabilité de nos services. La connaissance de l'analyse de réseau fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 53 K euros"
+  },
+  {
+    "id_offre": "yzriga_150",
+    "titre": "Développeur Backend",
+    "description": "Leader sur notre marché, nous recrutons un expert pour piloter nos nouveaux projets ambitieux. Votre mission principale sera d'analyser nos données et de développer des solutions basées sur machine learning, azure, regex, api. La connaissance de l'architecture microservices fera la différence lors des entretiens.",
+    "salaire_brut": "Rémunération : 69700€"
+  }
+]

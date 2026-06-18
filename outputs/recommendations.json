@@ -1,0 +1,44 @@
+{
+  "Profil_A": [
+    {
+      "id_offre": "yzriga_103",
+      "score": 0.3355
+    },
+    {
+      "id_offre": "yzriga_13",
+      "score": 0.3267
+    },
+    {
+      "id_offre": "yzriga_109",
+      "score": 0.3064
+    }
+  ],
+  "Profil_B": [
+    {
+      "id_offre": "yzriga_102",
+      "score": 0.302
+    },
+    {
+      "id_offre": "yzriga_40",
+      "score": 0.2928
+    },
+    {
+      "id_offre": "yzriga_20",
+      "score": 0.2301
+    }
+  ],
+  "Profil_C": [
+    {
+      "id_offre": "yzriga_131",
+      "score": 0.3157
+    },
+    {
+      "id_offre": "yzriga_109",
+      "score": 0.31
+    },
+    {
+      "id_offre": "yzriga_20",
+      "score": 0.234
+    }
+  ]
+}
