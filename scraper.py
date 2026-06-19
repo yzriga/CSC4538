@@ -5,7 +5,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-# --- Configuration --------------------------------------------------------
+# Configuration
 BASE_URL = "https://www-inf.telecom-sudparis.eu/COURS/CSC4538/Supports/"
 STUDENT_ID = "yzriga"
 PAGE_PARAM = "p"  # le parametre de page est p

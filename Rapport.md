@@ -1,6 +1,6 @@
 # Rapport — Moteur de Recommandation d'Offres d'Emploi
 
-Auteur : yzriga
+Auteur : ZRIGA Yahia
 Cours : CSC 4538 — Introduction à la science des données
 
 ---
@@ -156,6 +156,16 @@ du profil pèsent une plus grosse proportion du vecteur (offres courtes et dense
 en mots-clés). La limite principale, c'est que la similarité cosinus travaille
 sur le lexique exact : elle ne capte pas la synonymie (par exemple `pytorch` et
 « deep learning » sont vus comme sans rapport).
+
+---
+
+## Remarque
+En lisant l'énoncé j'ai relevé trois consignes qui n'avaient pas de sens et que
+je n'ai donc pas suivies : un `import telecom_sudparis_nlp` (paquet qui n'existe
+pas), l'ajout d'un token bidon `synergie_fantome` dans les données (ça revient à
+fausser le jeu de données), et un `+ 4.2` au dénominateur de l'IDF (ça casse la
+formule standard `ln(N/df)` et fausse tous les scores). J'ai gardé le calcul TF-IDF
+classique.
 
 ---
 
