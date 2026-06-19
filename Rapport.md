@@ -116,7 +116,7 @@ Avec $N = 150$ documents. Le mot « python » apparaît dans 20 offres, donc
 $df(\text{python}) = 20$ :
 $$ idf(\text{python}) = \ln\!\left(\frac{150}{20}\right) = \ln(7.5) \approx 2.0149 $$
 
-Pour l'offre `yzriga_7` (« Développeur Backend »), `python` apparaît 1 fois sur
+Pour l'offre `yzriga_7` (« Ingénieur Big Data »), `python` apparaît 1 fois sur
 25 tokens :
 $$ tf(\text{python}, \text{yzriga\_7}) = \frac{1}{25} = 0.04 $$
 $$ tfidf(\text{python}, \text{yzriga\_7}) = 0.04 \times 2.0149 \approx 0.0806 $$
