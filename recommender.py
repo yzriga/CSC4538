@@ -1,22 +1,3 @@
-"""
-Exercice 3 - Indexation TF-IDF et Recommandation (Similarite Cosinus)
-
-Entree  : outputs/cleaned_jobs.json
-Sorties :
-    - outputs/tfidf_index.json      (index inverse des poids TF-IDF)
-    - outputs/recommendations.json  (Top 3 des offres pour 3 profils)
-
-Definitions retenues :
-    tf(t, d)  = nombre d'occurrences de t dans d / nombre total de tokens de d
-    df(t)     = nombre de documents contenant t
-    idf(t)    = ln( N / df(t) )           (logarithme naturel, N = nb de documents)
-    tfidf     = tf(t, d) * idf(t)
-
-Le profil candidat est represente par un vecteur de poids IDF (presence de la
-competence ponderee par son IDF). La pertinence d'une offre est mesuree par la
-similarite cosinus entre le vecteur du profil et le vecteur TF-IDF de l'offre.
-"""
-
 import json
 import math
 import os
@@ -34,7 +15,6 @@ PROFILES = {
 
 
 def compute_idf(documents):
-    """Calcule l'IDF de chaque token. documents : {id_offre: [tokens]}."""
     n_docs = len(documents)
     df = Counter()
     for tokens in documents.values():
@@ -44,7 +24,6 @@ def compute_idf(documents):
 
 
 def compute_tfidf_index(documents, idf):
-    """Construit l'index inverse : {token: {id_offre: poids_tfidf}}."""
     index = {}
     for id_offre, tokens in documents.items():
         if not tokens:
@@ -59,7 +38,6 @@ def compute_tfidf_index(documents, idf):
 
 
 def build_doc_vectors(documents, idf):
-    """Renvoie {id_offre: {token: tfidf}} pour le calcul de similarite."""
     vectors = {}
     for id_offre, tokens in documents.items():
         if not tokens:
@@ -75,15 +53,11 @@ def build_doc_vectors(documents, idf):
 
 
 def build_profile_vector(skills, idf):
-    """Represente un profil par un vecteur de poids IDF.
-
-    Une competence absente de l'index (idf inconnu) recoit un poids nul.
-    """
+    # un profil = vecteur des poids IDF de ses competences (0 si inconnue)
     return {skill: idf.get(skill, 0.0) for skill in skills}
 
 
 def cosine_similarity(vec_a, vec_b):
-    """Similarite cosinus entre deux vecteurs creux (dictionnaires)."""
     common = set(vec_a) & set(vec_b)
     dot = sum(vec_a[t] * vec_b[t] for t in common)
 
@@ -96,7 +70,6 @@ def cosine_similarity(vec_a, vec_b):
 
 
 def recommend(profile_vector, doc_vectors, top_n=3):
-    """Renvoie le Top N des offres les plus similaires au profil."""
     scores = []
     for id_offre, doc_vec in doc_vectors.items():
         score = cosine_similarity(profile_vector, doc_vec)
@@ -117,14 +90,12 @@ def main():
 
     idf, _df = compute_idf(documents)
 
-    # 1. Index inverse TF-IDF
     tfidf_index = compute_tfidf_index(documents, idf)
     os.makedirs("outputs", exist_ok=True)
     with open(TFIDF_PATH, "w", encoding="utf-8") as f:
         json.dump(tfidf_index, f, ensure_ascii=False, indent=2)
-    print(f"Index TF-IDF ({len(tfidf_index)} tokens) sauvegarde dans {TFIDF_PATH}")
+    print(f"Index TF-IDF ({len(tfidf_index)} tokens) -> {TFIDF_PATH}")
 
-    # 2. Moteur de recommandation
     doc_vectors = build_doc_vectors(documents, idf)
     recommendations = {}
     for profile_name, skills in PROFILES.items():
@@ -133,7 +104,7 @@ def main():
 
     with open(RECO_PATH, "w", encoding="utf-8") as f:
         json.dump(recommendations, f, ensure_ascii=False, indent=2)
-    print(f"Recommandations sauvegardees dans {RECO_PATH}")
+    print(f"Recommandations -> {RECO_PATH}")
 
     for profile_name, reco in recommendations.items():
         print(f"\n{profile_name} :")

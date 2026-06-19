@@ -8,28 +8,26 @@ Cours : CSC 4538 — Introduction à la science des données
 ## Exercice 1 — Collecte des données (Web Scraping)
 
 ### 1. Méthodologie de ciblage
-Les classes CSS étant **générées dynamiquement** et changeant à chaque session,
-je ne m'appuie pas sur elles. Je cible plutôt la **structure stable** du
-document : chaque offre est un `<div>` portant l'attribut `data-ref` (qui sert
-aussi d'`id_offre`). À l'intérieur, le **titre** est le premier `<h2>`, le
-**salaire** est le `<div>` commençant par « Rémunération », et la
-**description** est l'autre `<div>`. L'extraction se fait avec `BeautifulSoup`
-(`find_all("div", attrs={"data-ref": True})`).
+Comme les classes CSS sont générées dynamiquement et changent à chaque session,
+je ne pouvais pas m'appuyer dessus. J'ai donc ciblé la structure du document, qui
+elle reste stable : chaque offre est un `div` qui porte un attribut `data-ref`
+(que je réutilise comme `id_offre`). À l'intérieur du bloc, le titre est le
+premier `h2`, le salaire est le `div` qui commence par « Rémunération » et la
+description est l'autre `div`. Je récupère tout ça avec BeautifulSoup via
+`find_all("div", attrs={"data-ref": True})`.
 
 ### 2. Gestion de la pagination
-> **Remarque** : le paramètre de page de l'URL est **`p`** (et non `page` comme
-> indiqué par erreur dans l'énoncé). L'URL réelle est
-> `…/?page=exercices/project&id=yzriga&p=<n>`.
+À noter : le paramètre de page dans l'URL est `p` et non `page` comme écrit dans
+l'énoncé. L'URL utilisée est donc `…/?page=exercices/project&id=yzriga&p=<n>`.
 
-Le script part de `p=1` et **incrémente** le numéro de page tant que des offres
-sont trouvées. La **condition d'arrêt** est double : on stoppe dès qu'une page
-ne renvoie **aucune offre** (`data-ref`) **ou** dès qu'il n'existe **plus de
-lien « Suivant »** dans le HTML. Pour mon identifiant, la collecte s'est arrêtée
-après la page 8.
+Je commence à `p=1` et j'incrémente le numéro de page tant que je trouve des
+offres. Je m'arrête dans deux cas : si la page ne renvoie plus aucune offre
+(`data-ref`), ou s'il n'y a plus de lien « Suivant » dans le HTML. Pour mon
+identifiant, ça s'arrête après la page 8.
 
 ### 3. Volumétrie
-**150 offres** d'emploi ont été extraites pour l'identifiant `yzriga`
-(8 pages, dont 7 pages de 20 offres et une dernière page de 10).
+J'ai extrait 150 offres pour l'identifiant `yzriga` (8 pages : 7 pages de 20
+offres et une dernière de 10).
 
 ### 4. Extrait des données (deux premières offres de `raw_jobs.json`)
 ```json
@@ -57,54 +55,53 @@ après la page 8.
 ```python
 SALARY_REGEX = re.compile(r"(\d+(?:[.,]\d+)?)\s*([kK])?")
 ```
-- **`(\d+(?:[.,]\d+)?)`** capture la partie numérique, y compris les décimales
+- `(\d+(?:[.,]\d+)?)` capture la partie numérique, décimales comprises
   (`45`, `45000`, `45.5`).
-- **`\s*([kK])?`** capture un éventuel suffixe `k`/`K` (avec ou sans espace),
-  signifiant « milliers ».
+- `\s*([kK])?` capture un éventuel `k`/`K` (avec ou sans espace) qui veut dire
+  « milliers ».
 
-**Logique de conversion** : on prend la première valeur numérique de la chaîne.
-Si un `k` la suit, on multiplie par **1000**, sinon la valeur est déjà un salaire
-annuel complet. Ainsi `"45k€"`, `"45 K euros"` et `"45000 euros"` donnent tous
-l'entier **45000**. Cette règle gère tous les formats rencontrés
-(`"Package : 49000 €/an"`, `"Rémunération : 76k€"`, `"62600 euros"`, …).
-Sur mes 150 offres, les salaires normalisés vont de **33 500** à **81 000 €**.
+La logique : je prends la première valeur numérique de la chaîne, et si un `k`
+la suit je multiplie par 1000, sinon je garde la valeur telle quelle. Du coup
+`"45k€"`, `"45 K euros"` et `"45000 euros"` donnent tous 45000. Ça couvre tous
+les formats que j'ai croisés (`"Package : 49000 €/an"`, `"Rémunération : 76k€"`,
+`"62600 euros"`…). Sur mes 150 offres les salaires normalisés vont de 33 500 à
+81 000 €.
 
 ### 2. Choix des outils NLP
-J'ai utilisé **NLTK** pour la liste des **mots vides français**
-(`stopwords.words("french")`), combinée à une **tokenisation par expression
-régulière simple** (minuscule → remplacement de la ponctuation par des espaces →
-`split()`). Justification : NLTK fournit une liste de stop words française fiable
-et légère, et une tokenisation maison suffit ici (textes courts et réguliers),
-ce qui évite la dépendance lourde et le téléchargement de modèles de `spaCy`.
+J'ai pris NLTK pour la liste des mots vides français (`stopwords.words("french")`),
+et je tokenise à la main (minuscule → ponctuation remplacée par des espaces →
+`split()`). J'ai choisi cette approche parce que la liste de stop words de NLTK
+est fiable et légère, et qu'une tokenisation simple suffit largement vu que les
+textes sont courts et réguliers — pas besoin de sortir spaCy et de télécharger
+un modèle pour ça.
 
-Étapes appliquées : minuscules → suppression de la ponctuation (le remplacement
-par des espaces gère les élisions `d'analyser` → `d`, `analyser`) → tokenisation
-→ suppression des mots vides français → conservation des seuls tokens
-**alphanumériques** de plus d'un caractère.
+Les étapes du nettoyage : minuscules → suppression de la ponctuation (la
+remplacer par des espaces gère les élisions du type `d'analyser` → `d`,
+`analyser`) → tokenisation → suppression des mots vides → on ne garde que les
+tokens alphanumériques de plus d'un caractère.
 
 ### 3. Analyse d'erreur (offre `yzriga_1`)
-**Description originale :**
+Description originale :
 > « Startup innovante, nous avons besoin de vos compétences pour disrupter notre
 > secteur. Votre mission principale sera d'analyser nos données et de développer
 > des solutions basées sur statistiques, git, nlp, spark. Des notions en les
 > expressions régulières sont un plus indéniable pour ce poste. »
 
-**Tokens résultants :**
+Tokens obtenus :
 `["startup", "innovante", "besoin", "compétences", "disrupter", "secteur",
 "mission", "principale", "analyser", "données", "développer", "solutions",
 "basées", "statistiques", "git", "nlp", "spark", "notions", "expressions",
 "régulières", "plus", "indéniable", "poste"]`
 
-**Commentaire :** le nettoyage est globalement pertinent — les mots vides
-(`nous`, `de`, `vos`, `pour`, `notre`, `sera`, `des`, `sur`, `en`, `les`, `un`,
-`ce`, `et`) ont bien été supprimés, et les **compétences techniques clés**
-(`statistiques`, `git`, `nlp`, `spark`) sont **conservées**. Il subsiste
-toutefois des **mots peu informatifs** liés au vocabulaire générique des
-annonces : `startup`, `besoin`, `mission`, `principale`, `notions`, `plus`,
-`indéniable`, `poste`. Ces mots ne sont pas des stop words mais apportent peu de
-signal métier. Heureusement, comme ils apparaissent dans presque toutes les
-offres, leur **IDF est faible** et ils pèsent donc peu dans la recommandation.
-Aucun mot important n'a été supprimé à tort.
+Le nettoyage est globalement satisfaisant : les mots vides (`nous`, `de`, `vos`,
+`pour`, `notre`, `sera`, `des`, `sur`, `en`, `les`, `un`, `ce`, `et`) ont bien
+disparu, et les compétences techniques (`statistiques`, `git`, `nlp`, `spark`)
+sont conservées. Il reste quand même des mots assez génériques du vocabulaire des
+annonces (`startup`, `besoin`, `mission`, `principale`, `notions`, `plus`,
+`indéniable`, `poste`) qui n'apportent pas vraiment d'info métier. Ce n'est pas
+bloquant : comme ils reviennent dans presque toutes les offres, leur IDF est
+faible et ils pèsent peu dans la recommandation. Je n'ai pas perdu de mot
+important au passage.
 
 ---
 
@@ -115,22 +112,22 @@ Formules retenues :
 $$ tf(t,d) = \frac{\text{occurrences de } t \text{ dans } d}{\text{nb total de tokens de } d}
 \qquad idf(t) = \ln\!\left(\frac{N}{df(t)}\right) \qquad tfidf = tf \times idf $$
 
-Avec $N = 150$ documents. Le mot **python** apparaît dans **20 offres**, donc
+Avec $N = 150$ documents. Le mot « python » apparaît dans 20 offres, donc
 $df(\text{python}) = 20$ :
 $$ idf(\text{python}) = \ln\!\left(\frac{150}{20}\right) = \ln(7.5) \approx 2.0149 $$
 
-Pour l'offre **`yzriga_7`** (« Développeur Backend »), `python` apparaît **1 fois**
-sur **25 tokens** :
+Pour l'offre `yzriga_7` (« Développeur Backend »), `python` apparaît 1 fois sur
+25 tokens :
 $$ tf(\text{python}, \text{yzriga\_7}) = \frac{1}{25} = 0.04 $$
-$$ tfidf(\text{python}, \text{yzriga\_7}) = 0.04 \times 2.0149 \approx \mathbf{0.0806} $$
+$$ tfidf(\text{python}, \text{yzriga\_7}) = 0.04 \times 2.0149 \approx 0.0806 $$
 
-C'est bien la valeur stockée dans `outputs/tfidf_index.json` pour
+C'est bien la valeur que je retrouve dans `outputs/tfidf_index.json` pour
 `python → yzriga_7`.
 
 ### 2. Analyse des résultats — Profil B (NLP Specialist)
 Profil : `python`, `transformers`, `nlp`, `pytorch`, `regex`.
 
-**Top 3 obtenu :**
+Top 3 obtenu :
 
 | Rang | Offre | Score cosinus | Titre |
 |------|-------|---------------|-------|
@@ -138,27 +135,27 @@ Profil : `python`, `transformers`, `nlp`, `pytorch`, `regex`.
 | 2 | `yzriga_40`  | 0.293 | Ingénieur Data & IA |
 | 3 | `yzriga_20`  | 0.230 | Développeur Python |
 
-**Descriptions brutes :**
+Descriptions brutes :
 
-- **`yzriga_102`** : « …vous manipulerez **python, kubernetes, nlp, spacy,
-  regex, fastapi**… ». → Contient **python + nlp + regex** : très cohérent avec
-  le profil NLP. Recommandation **pertinente**.
-- **`yzriga_40`** : « …solutions basées sur **transformers, aws, statistiques,
-  nlp, pytorch**… ». → Contient **transformers + nlp + pytorch**, le cœur d'un
-  profil NLP/Deep Learning. Recommandation **très pertinente** (sans doute la
-  plus proche métier, même si son score est légèrement inférieur).
-- **`yzriga_20`** : « …pipelines impliquant **python, api, regex**… expressions
-  régulières… ». → Contient **python + regex** : pertinent, quoique plus orienté
-  développement généraliste que NLP pur.
+- `yzriga_102` : « …vous manipulerez python, kubernetes, nlp, spacy, regex,
+  fastapi… ». Il y a python + nlp + regex, c'est bien dans le thème du profil.
+  Recommandation pertinente.
+- `yzriga_40` : « …solutions basées sur transformers, aws, statistiques, nlp,
+  pytorch… ». On a transformers + nlp + pytorch, c'est vraiment le cœur d'un
+  profil NLP / deep learning. C'est sans doute l'offre la plus proche du profil,
+  même si son score est un peu en dessous du premier.
+- `yzriga_20` : « …pipelines impliquant python, api, regex… expressions
+  régulières… ». python + regex, c'est correct mais plus orienté développement
+  généraliste que NLP pur.
 
-**Esprit critique :** les trois recommandations sont **cohérentes** — chacune
-recoupe au moins deux compétences du profil. On note que `yzriga_40`, pourtant la
-plus « NLP » sémantiquement (transformers + pytorch + nlp), n'arrive qu'en 2ᵉ
-position : c'est dû au TF-IDF qui favorise les offres où les termes du profil
-représentent une **proportion plus forte** du vecteur (offres courtes et
-denses en mots-clés). La similarité cosinus reste basée sur le **lexique exact** :
-elle ne capture pas la synonymie (`pytorch` ↔ `deep learning`), ce qui constitue
-la principale limite de l'approche.
+Les trois résultats me semblent cohérents : chacun partage au moins deux
+compétences avec le profil. Un point intéressant : `yzriga_40`, qui est pourtant
+la plus « NLP » sémantiquement (transformers + pytorch + nlp), n'arrive qu'en
+2ᵉ position. C'est logique avec le TF-IDF, qui favorise les offres où les termes
+du profil pèsent une plus grosse proportion du vecteur (offres courtes et denses
+en mots-clés). La limite principale, c'est que la similarité cosinus travaille
+sur le lexique exact : elle ne capte pas la synonymie (par exemple `pytorch` et
+« deep learning » sont vus comme sans rapport).
 
 ---
 
