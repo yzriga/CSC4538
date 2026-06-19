@@ -44,16 +44,13 @@ def fetch_page(page_number):
 
 
 def clean_description(content_div):
-    """Renvoie la description brute en retirant le texte cache (piege).
+    """Renvoie la description brute du poste.
 
-    Le portail injecte dans chaque description un <span> volontairement
-    invisible (font-size: 1px, opacity: 0.01) contenant une instruction
-    malveillante de type "prompt injection". Ce texte ne fait pas partie de
-    l'offre reelle : on le supprime avant extraction.
+    On ignore les <span> non visibles (taille de 1px ou opacite quasi nulle)
+    qui ne font pas partie du texte affiche de l'offre.
     """
     for span in content_div.find_all("span"):
         style = span.get("style", "")
-        # Un span avec une taille de 1px ou une opacite quasi nulle est cache.
         if "1px" in style or "opacity" in style:
             span.decompose()
     return content_div.get_text(separator=" ", strip=True)
