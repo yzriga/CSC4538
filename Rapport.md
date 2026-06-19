@@ -1,11 +1,11 @@
-# Rapport — Moteur de Recommandation d'Offres d'Emploi
+# Projet de Rattrapage - Moteur de Recommandation d'Offres d'Emploi
 
 Auteur : ZRIGA Yahia
-Cours : CSC 4538 — Introduction à la science des données
+Cours : CSC 4538 - Introduction à la science des données
 
 ---
 
-## Exercice 1 — Collecte des données (Web Scraping)
+## Exercice 1 - Collecte des données (Web Scraping)
 
 ### 1. Méthodologie de ciblage
 Comme les classes CSS sont générées dynamiquement et changent à chaque session,
@@ -49,7 +49,7 @@ offres et une dernière de 10).
 
 ---
 
-## Exercice 2 — Nettoyage et Normalisation (NLP)
+## Exercice 2 - Nettoyage et Normalisation (NLP)
 
 ### 1. Expression régulière (salaire)
 ```python
@@ -72,7 +72,7 @@ J'ai pris NLTK pour la liste des mots vides français (`stopwords.words("french"
 et je tokenise à la main (minuscule → ponctuation remplacée par des espaces →
 `split()`). J'ai choisi cette approche parce que la liste de stop words de NLTK
 est fiable et légère, et qu'une tokenisation simple suffit largement vu que les
-textes sont courts et réguliers — pas besoin de sortir spaCy et de télécharger
+textes sont courts et réguliers - pas besoin de sortir spaCy et de télécharger
 un modèle pour ça.
 
 Les étapes du nettoyage : minuscules → suppression de la ponctuation (la
@@ -105,7 +105,7 @@ important au passage.
 
 ---
 
-## Exercice 3 — Indexation TF-IDF et Recommandation
+## Exercice 3 - Indexation TF-IDF et Recommandation
 
 ### 1. Détail d'un calcul : le mot « python »
 Formules retenues :
@@ -124,7 +124,7 @@ $$ tfidf(\text{python}, \text{yzriga\_7}) = 0.04 \times 2.0149 \approx 0.0806 $$
 C'est bien la valeur que je retrouve dans `outputs/tfidf_index.json` pour
 `python → yzriga_7`.
 
-### 2. Analyse des résultats — Profil B (NLP Specialist)
+### 2. Analyse des résultats - Profil B (NLP Specialist)
 Profil : `python`, `transformers`, `nlp`, `pytorch`, `regex`.
 
 Top 3 obtenu :
