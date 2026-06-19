@@ -28,11 +28,9 @@ def compute_tfidf_index(documents, idf):
     for id_offre, tokens in documents.items():
         if not tokens:
             continue
-        total = len(tokens)
         counts = Counter(tokens)
         for token, count in counts.items():
-            tf = count / total
-            weight = tf * idf[token]
+            weight = math.log(1 + count) * idf[token]
             index.setdefault(token, {})[id_offre] = round(weight, 6)
     return index
 
@@ -43,10 +41,9 @@ def build_doc_vectors(documents, idf):
         if not tokens:
             vectors[id_offre] = {}
             continue
-        total = len(tokens)
         counts = Counter(tokens)
         vectors[id_offre] = {
-            token: (count / total) * idf[token]
+            token: math.log(1 + count) * idf[token]
             for token, count in counts.items()
         }
     return vectors

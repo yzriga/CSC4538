@@ -108,18 +108,19 @@ important au passage.
 ## Exercice 3 - Indexation TF-IDF et Recommandation
 
 ### 1. Détail d'un calcul : le mot « python »
-Formules retenues :
-$$ tf(t,d) = \frac{\text{occurrences de } t \text{ dans } d}{\text{nb total de tokens de } d}
-\qquad idf(t) = \ln\!\left(\frac{N}{df(t)}\right) \qquad tfidf = tf \times idf $$
+Formules retenues (celles du cours, CI8) :
+$$ tf(t,d) = \text{nb d'occurrences de } t \text{ dans } d
+\qquad idf(t) = \ln\!\left(\frac{N}{df(t)}\right)
+\qquad tfidf(t,d) = \log(1 + tf_{t,d}) \times \ln\!\left(\frac{N}{df(t)}\right) $$
 
 Avec $N = 150$ documents. Le mot « python » apparaît dans 20 offres, donc
 $df(\text{python}) = 20$ :
 $$ idf(\text{python}) = \ln\!\left(\frac{150}{20}\right) = \ln(7.5) \approx 2.0149 $$
 
-Pour l'offre `yzriga_7` (« Ingénieur Big Data »), `python` apparaît 1 fois sur
-25 tokens :
-$$ tf(\text{python}, \text{yzriga\_7}) = \frac{1}{25} = 0.04 $$
-$$ tfidf(\text{python}, \text{yzriga\_7}) = 0.04 \times 2.0149 \approx 0.0806 $$
+Pour l'offre `yzriga_7` (« Ingénieur Big Data »), `python` apparaît 1 fois,
+donc $tf = 1$ :
+$$ \log(1 + tf) = \ln(1 + 1) = \ln(2) \approx 0.6931 $$
+$$ tfidf(\text{python}, \text{yzriga\_7}) = 0.6931 \times 2.0149 \approx 1.3966 $$
 
 C'est bien la valeur que je retrouve dans `outputs/tfidf_index.json` pour
 `python → yzriga_7`.
@@ -132,7 +133,7 @@ Top 3 obtenu :
 | Rang | Offre | Score cosinus | Titre |
 |------|-------|---------------|-------|
 | 1 | `yzriga_102` | 0.302 | Développeur Backend |
-| 2 | `yzriga_40`  | 0.293 | Ingénieur Data & IA |
+| 2 | `yzriga_40`  | 0.298 | Ingénieur Data & IA |
 | 3 | `yzriga_20`  | 0.230 | Développeur Python |
 
 Descriptions brutes :
